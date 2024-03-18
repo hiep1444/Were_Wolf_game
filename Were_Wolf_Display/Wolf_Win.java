@@ -30,11 +30,23 @@ public class Wolf_Win extends javax.swing.JPanel {
         jLabel2 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+
+        setLayout(null);
 
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\COMPUTER\\Downloads\\assets\\assets\\assets_images_icon_werewolf_filled.png")); // NOI18N
+        add(jLabel1);
+        jLabel1.setBounds(290, 80, 248, 239);
 
         jLabel2.setFont(new java.awt.Font("Segoe UI Symbol", 0, 24)); // NOI18N
         jLabel2.setText("Wolf Win!!!");
+        add(jLabel2);
+        jLabel2.setBounds(370, 30, 120, 32);
 
         jButton1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jButton1.setText("Chơi lại");
@@ -43,6 +55,8 @@ public class Wolf_Win extends javax.swing.JPanel {
                 jButton1ActionPerformed(evt);
             }
         });
+        add(jButton1);
+        jButton1.setBounds(460, 380, 160, 60);
 
         jButton2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jButton2.setText("Về trang chủ");
@@ -51,46 +65,32 @@ public class Wolf_Win extends javax.swing.JPanel {
                 jButton2ActionPerformed(evt);
             }
         });
+        add(jButton2);
+        jButton2.setBounds(250, 380, 160, 60);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
-        this.setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(300, 300, 300)
-                .addComponent(jLabel1)
-                .addContainerGap(312, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jLabel2)
-                        .addGap(360, 360, 360))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(216, 216, 216))))
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addGap(263, 263, 263)
-                    .addComponent(jButton2)
-                    .addContainerGap(463, Short.MAX_VALUE)))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(46, 46, 46)
-                .addComponent(jLabel2)
-                .addGap(42, 42, 42)
-                .addComponent(jLabel1)
-                .addGap(18, 18, 18)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(62, Short.MAX_VALUE))
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                    .addContainerGap(378, Short.MAX_VALUE)
-                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(64, 64, 64)))
-        );
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMG/back_fireworks_avatar_large.png"))); // NOI18N
+        add(jLabel3);
+        jLabel3.setBounds(430, 70, 200, 176);
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMG/back_fireworks_avatar_large.png"))); // NOI18N
+        add(jLabel4);
+        jLabel4.setBounds(40, 40, 200, 176);
+
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMG/back_fireworks_avatar_large.png"))); // NOI18N
+        add(jLabel5);
+        jLabel5.setBounds(650, 210, 200, 176);
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMG/back_fireworks_avatar_large.png"))); // NOI18N
+        add(jLabel6);
+        jLabel6.setBounds(630, 40, 200, 176);
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMG/back_fireworks_avatar_large.png"))); // NOI18N
+        add(jLabel7);
+        jLabel7.setBounds(240, 110, 200, 176);
+
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMG/back_fireworks_avatar_large.png"))); // NOI18N
+        add(jLabel8);
+        jLabel8.setBounds(50, 210, 200, 176);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -107,5 +107,11 @@ public class Wolf_Win extends javax.swing.JPanel {
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     // End of variables declaration//GEN-END:variables
 }
