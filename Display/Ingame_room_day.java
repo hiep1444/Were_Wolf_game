@@ -8,12 +8,12 @@ package Were_Wolf_Display;
  *
  * @author COMPUTER
  */
-public class Ingame_room extends javax.swing.JPanel {
+public class Ingame_room_day extends javax.swing.JPanel {
 
     /**
      * Creates new form Waiting_room
      */
-    public Ingame_room() {
+    public Ingame_room_day() {
         initComponents();
     }
 
@@ -258,12 +258,13 @@ public class Ingame_room extends javax.swing.JPanel {
                 .addGap(28, 28, 28)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel5)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel9)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel2)
-                                .addGap(13, 13, 13)))
+                                .addGap(13, 13, 13))
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(jLabel5)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel11)
